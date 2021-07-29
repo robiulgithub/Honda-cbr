@@ -1,0 +1,52 @@
+/* image gray sceale */
+
+
+.cbr-bg-info {
+    background: #415D68;
+}
+
+.modal-btn-warning {
+    background: #e76f51;
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 70px;
+    border-radius: 3px;
+
+
+}
+
+.orange {
+    color: #e76f51;
+    font-weight: bold;
+}
+
+
+
+
+.container-gray {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    width: 90%;
+    margin: auto;
+}
+
+
+.container-gray img {
+    width: 25%;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: 1s;
+
+}
+
+img:hover {
+    filter: grayscale(0%);
+}
+
+.fa-star.filled {
+    color: #E77C40;
+
+}
